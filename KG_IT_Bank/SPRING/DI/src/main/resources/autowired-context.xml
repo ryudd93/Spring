@@ -16,9 +16,17 @@
  -->
 
 
-	<bean id="doc1" class="ex06.autowired.Document"/>
+	<bean id="xxxxxx" class="ex06.autowired.Document"/>
+	<bean id="doc2" class="ex06.autowired.Document"/>
 	<bean id="printer1" class="ex06.autowired.Printer" />
-
+	<bean id="printer2" class="ex06.autowired.Printer2" />
+	
+	
+	<!-- quiz -->
+	<bean id="keyboard" class="ex07.quiz.Keyboard" />
+	<bean id="mouse" class="ex07.quiz.Mouse" />
+	<bean id="monitor" class="ex07.quiz.Monitor" />
+	<bean id="computer" class="ex07.quiz.Computer" />
 
 
 
